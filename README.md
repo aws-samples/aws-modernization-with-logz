@@ -1,18 +1,40 @@
-## My Project
+# Logz.io Observability Workshop
 
-TODO: Fill this README out!
+## TODO:
 
-Be sure to:
+- Update Metrics and traces section
+- When approved:
+  - Update links to point to final site
+  - make repositories public and remove token from links.
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Build
 
-## Security
+In this section you will be setting up your workflow, edit and build, test your environments, and publish the workshop if everything is prescriptive enough. Follow along to learn how to complete all of these tasks.
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+## Launch
 
-## License Summary
+With your workshop now being published, you can now identify some key got to market activities.
 
-The documentation is made available under the Creative Commons Attribution-ShareAlike 4.0 International License. See the LICENSE file.
+## FAQ
 
-The sample code within this documentation is made available under the MIT-0 license. See the LICENSE-SAMPLECODE file.
+Commonly asked questions along with tools, tips, and samples that might be relevant to your workshop. Modify this FAQ section as you best see fit for your specific workshop and your customer base.
+
+## Authors
+
+Contributors names and contact info
+
+- James Bland (@jamesbland123)
+- Parker Perry (@parkerperry)
+- James Spencer (@folrig)
+- Eugene Mu (@eugenemu)
+
+## License
+
+This project is licensed. See the LICENSE.md file for details
+
+## Acknowledgments
+
+- Markdown cheat sheet (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- Learn theme markdown (https://learn.netlify.app/en/cont/markdown/)
+- Menu extras and shortcuts (https://learn.netlify.app/en/cont/menushortcuts/)
+- Using Font Awesome Emoji's to help your page pop (https://learn.netlify.app/en/cont/icons/)
