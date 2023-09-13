@@ -1,6 +1,6 @@
 ---
 title: "Install Additional Tools"
-weight: 33
+weight: 18
 ---
 
 For the duration of the workshop we will be utilizing a couple of extra tools. You can ether execute the following command to Install

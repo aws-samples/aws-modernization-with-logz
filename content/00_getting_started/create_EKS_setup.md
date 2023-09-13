@@ -1,10 +1,11 @@
 ---
 title: "Create an EKS Cluster"
-weight: 35
+weight: 19
 ---
 
 {{% notice warning %}}
-Provisioning this workshop environment in your AWS account will create resources and **there will be cost associated with them**.The cleanup section provides a guide to remove them, preventing further charges.
+Provisioning this workshop environment in your AWS account will create resources and **there will be cost associated with them**.
+Refer to the [**Clean up section**](/300_cleanup.html) to learn how to remove the infrastructure provisioned in this workshop.
 
 {{%  /notice  %}}
 

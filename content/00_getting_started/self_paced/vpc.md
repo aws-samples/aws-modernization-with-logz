@@ -1,13 +1,13 @@
 ---
 title: "AWS VPC Setup"
 chapter: true
-weight: 12
+weight: 13
 ---
 
 ## Setting up your AWS VPC (only if it's missing)
 
 {{% notice warning %}}
-You are responsible for the cost of the AWS services used while running this workshop in your AWS account. We highly recommend you to go to the [request AWS credit page](/030_self_guided_setup/30_request_credit.html) so you can run this workshop without any charge to you.
+You are responsible for the cost of the AWS services used while running this workshop in your AWS account.
 {{% /notice %}}
 
 For this workshop we will be utilizing us-east-1 but you can utilize which ever reagion you would like. Head over to [https://us-east-1.console.aws.amazon.com/vpc/home?region=us-east-1#vpcs:](https://us-east-1.console.aws.amazon.com/vpc/home?region=us-east-1#vpcs:) make sure that have a VPC listed there if it's empty then let's create one.

@@ -6,7 +6,7 @@ weight: 1
 
 ## Observability & Security for Teams that Love Open Source
 
-![Partner Logo](/images/Logz-io_Logo.jpg) <!-- ADD YOUR PARTNER LOGO HERE USING THE INSTRUCTIONS BELOW -->
+![Partner Logo](/images/Logz-io_Logo.jpg) 
 
 ### Learning Objectives
 

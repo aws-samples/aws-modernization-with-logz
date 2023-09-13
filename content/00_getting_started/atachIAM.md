@@ -1,7 +1,7 @@
 ---
-title: "Attach the IAM role to your Workspace"
+title: "Attach the IAM role to your Cloud9 Workspace"
 chapter: false
-weight: 17
+weight: 16
 ---
 
 1. Follow [this deep link to find your Cloud9 EC2 instance] (https://console.aws.amazon.com/ec2/v2/home?#Instances:tag:Name=aws-cloud9-Logz-io-Workshop;sort=desc:launchTime)

@@ -1,32 +1,15 @@
 # Logz.io Observability Workshop
 
-## TODO:
+This is the repository for logz.io modernization workshop at awsworkshop.io
 
-- Update Metrics and traces section
-- When approved:
-  - Update links to point to final site
-  - make repositories public and remove token from links.
-
-## Build
-
-In this section you will be setting up your workflow, edit and build, test your environments, and publish the workshop if everything is prescriptive enough. Follow along to learn how to complete all of these tasks.
-
-## Launch
-
-With your workshop now being published, you can now identify some key got to market activities.
-
-## FAQ
-
-Commonly asked questions along with tools, tips, and samples that might be relevant to your workshop. Modify this FAQ section as you best see fit for your specific workshop and your customer base.
+logz-io.awsworkshop.io
 
 ## Authors
 
 Contributors names and contact info
 
-- James Bland (@jamesbland123)
-- Parker Perry (@parkerperry)
-- James Spencer (@folrig)
-- Eugene Mu (@eugenemu)
+- Mark Kriaf (@kriafm)
+- Victor Palma (@devx)
 
 ## License
 

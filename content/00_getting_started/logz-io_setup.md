@@ -1,7 +1,7 @@
 ---
 title: "Create a Logz.io Trial account"
 chapter: true
-weight: 40
+weight: 20
 ---
 
 ## Create a Logz.io Trial account

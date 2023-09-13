@@ -1,7 +1,7 @@
 ﻿---
-title: "Update IAM settings for your Workspace"
+title: "Update IAM settings for your Cloud9 Workspace"
 chapter: false
-weight: 19
+weight: 17
 ---
 
 {{% notice info %}}

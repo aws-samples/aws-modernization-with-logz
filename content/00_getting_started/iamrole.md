@@ -1,7 +1,7 @@
 ---
-title: "Create an IAM role for your workspace"
+title: "Create an IAM role for your Cloud9 Workspace"
 chapter: false
-weight: 13
+weight: 15
 ---
 
 {{% notice info %}}

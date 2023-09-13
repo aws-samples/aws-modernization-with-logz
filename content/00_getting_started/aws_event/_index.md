@@ -1,7 +1,7 @@
 ---
 title: "At an AWS Event"
-chapter: false
-weight: 10
+chapter: true
+weight: 11
 ---
 
 To complete this workshop, you are provided with an AWS account via the AWS Event Engine service. A 12-digit hash will be provided to you by event staff - this is your unique access code. eg:
@@ -29,4 +29,4 @@ Please select **US West (Oregon)** in the top right corner.
 
 ### Next step
 
-Once you have completed the step above, you can leave the AWS console open. You can now move to the [**Create a workspace**](/00_prerequisites/workspace.html) section.
+Once you have completed the step above, you can leave the AWS console open. You can now move to the [**Create an IAM role for your workspace**](/00_getting_started/iamrole.html) section.
