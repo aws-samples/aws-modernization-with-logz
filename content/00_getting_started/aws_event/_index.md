@@ -4,29 +4,24 @@ chapter: true
 weight: 11
 ---
 
-To complete this workshop, you are provided with an AWS account via the AWS Event Engine service. A 12-digit hash will be provided to you by event staff - this is your unique access code. eg:
-
-## `e8476543c00e`
+To complete this workshop, you are provided with an AWS account via the AWS Workshop Studio service. A login link will be provided to you by event staff.
 
 ### Create AWS Account
 
-1 . Connect to the portal by clicking the button or browsing to [https://dashboard.eventengine.run/](https://dashboard.eventengine.run/). The following screen shows up. Enter the provided hash in the text box. The button on the bottom right corner changes to **Accept Terms & Login**. Click on that button to continue.
+1. Connect to the portal by using the URL provided.
 
-![Event Engine](/images/prerequisites/event-engine-initial-screen.png)
+2. Login Page, Select **Email one-time password (OTP)**
 
-2 . Choose **AWS Console**, then **Open AWS Console**.
-This account will expire at the end of the workshop and the all the resources created will be automatically deprovisioned. You will not be able to access this account after today.
+![Workshop Studio login otp](/images/prerequisites/otp_ws.png)
 
-![Event Engine Dashboard](/images/prerequisites/event-engine-dashboard.png)
+3. Enter the email address that you registered to the event with, and click **Send passcode** you will recive a one time passcode to be used in the next step.
 
-3 . Use a single region for the duration of this workshop. This workshop supports the following regions:
+![Workshop Studio login otp](/images/prerequisites/email_ws.png)
 
-- us-east-1 (US West - Virginia)
+4. Enter the one time passcode recived and click **Sign In**
 
-Please select **US West (Oregon)** in the top right corner.
+![Workshop Studio login otp](/images/prerequisites/pass_ws.png)
 
-![Event Engine Region](/images/prerequisites/event-engine-region.png)
+5. Review the Terms and Conditions, and select **I agree with the Terms and Conditions**, then Click **Join Event**.
 
-### Next step
-
-Once you have completed the step above, you can leave the AWS console open. You can now move to the [**Create an IAM role for your workspace**](/00_getting_started/iamrole.html) section.
+6. To go to you AWS Console, click **Open AWS Console** on the **Left** side of the page
