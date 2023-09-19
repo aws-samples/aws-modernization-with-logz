@@ -28,6 +28,16 @@ In the AWS Console.
 
 Please allow several minutes for this task to complete.
 
+### Remove Cloud9 IAM Role 
+In the AWS Console.
+
+1. Go to **Services** -> **IAM** 
+2. Select **Roles** from the left hand menu
+3. Search for the role named **Logz-io-Workshop-Admin** that we created, and select the checkbox next to it.
+4. Click **Delete** button on the right, and confirm deletion step.
+
+Please allow several minutes for this task to complete.
+
 ### Remove workshop VPC 
 In the AWS Console.
 
@@ -36,3 +46,5 @@ In the AWS Console.
 3. Confirm deletion step.
 
 Please allow several minutes for this task to complete.
+
+Logz-io-Workshop-Admin
