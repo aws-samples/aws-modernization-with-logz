@@ -47,4 +47,3 @@ In the AWS Console.
 
 Please allow several minutes for this task to complete.
 
-Logz-io-Workshop-Admin
