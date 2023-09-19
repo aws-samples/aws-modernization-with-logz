@@ -17,7 +17,7 @@ In the AWS Console.
 2. Select the cluster named "logz-io-o11y-workshop" and click the "Delete" button on the right.
 3. Confirm deletion step.
 
-Please allow sevral minutes for this task to complete.
+Please allow several minutes for this task to complete.
 
 ### Remove Cloud9 Instacne
 In the AWS Console.
@@ -26,7 +26,7 @@ In the AWS Console.
 2. Select the workspace named "Logz-io-Workshop" from the list and click the "Delete" button on the right.
 3. Confirm deletion step.
 
-Please allow sevral minutes for this task to complete.
+Please allow several minutes for this task to complete.
 
 ### Remove workshop VPC 
 In the AWS Console.
@@ -35,4 +35,4 @@ In the AWS Console.
 2. Select the VPC named "Logz-io-Workshop" from the list ,click the "Action" button on the right and select "Delete VPC".
 3. Confirm deletion step.
 
-Please allow sevral minutes for this task to complete.
+Please allow several minutes for this task to complete.
