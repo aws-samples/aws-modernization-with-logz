@@ -6,7 +6,7 @@ weight: 75
 
 # Searching Logs
 
-In the previous section we enabled the product catalog failure service flag. Now we will utilize the logz.io log product powered by **OpenSearch** to look for errors.
+In the previous section we enabled the product catalog failure service flag. Now we will utilize the Logz.io log product powered by **OpenSearch** to look for errors.
 If you had previously been looking through the product make sure you select the `Last 15 minutes`.
 ![Logs.io Logs: product catalog failure](/images/logs/logz-io-logs-last-15-minutes.png)
 As you can see from the image above there have been many logs generated. Right way you may notice that we have 1 new exception. So let's click on that to explore

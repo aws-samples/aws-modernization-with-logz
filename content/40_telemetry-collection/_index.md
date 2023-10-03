@@ -25,34 +25,20 @@ For our workshop we will be selecting kubernetes > EKS.
 
 ![k8s-eks](/images/collector/logz-io-collector-1-eks.png)
 
-Next, we will name and select the telemetry signals that that we want to collect:
+You will be brought to screen that has been populated with a helm configuration to deploy the collection of logs, metrics and traces.
 
-- **Name**: logz-io-workshop ( or what ever you would like)
-- **Taints and Tolerations**:
-- **Logs**
-- **Metrics**
-  - We will also limit the Kubernetes metrics as there can be way to many.
-- **Traces**
+Before we continue we need to update the place holders in yellowed `ENTER VALUE` with a value of your choosing. It production environments
 
-Select Next when done.
+you want to utilize the name of the cluster or environment name.
+![k8s helm configuration](/images/collector/logz-io-collector-2-install-via-helm.png)
 
-![k8s data sources](/images/collector/logz-io-collector-1-k8s-data-src.png)
+Click the `Copy snippet` button to copy the helm configuration to your clipboard. You will need this in the next step.
 
-Next, we will click on add in the security section and hit next at the top right hand conner when done:
-
-- **Environment Nazme**: logz-io-workshop ( match what you selected above)
-- **Logs**
-  ![k8s security](/images/collector/logz-io-collector-1-k8s-sec-src.png)
-
-Copy the snippet and deploy it in our Terminal (second image). From this page, we can go straight to the Logz.io platform to see our data coming in, or install a dashboard bundle for popular cloud technologies.
-
-![collector install](/images/collector/logz-io-collector-1-collector-install-cmd.png)
-
-![](/images/telemetry/tc-run-sh-cmd-06.png)
+![helm install](/images/collector/logz-io-console-install-via-helm.png)
+Paste the helm snippet into the terminal window and run the command. This will install the telemetry collector into your EKS cluster. Once the installation is complete you will see a message that looks like the one below.
 
 After about a minute, we can see our data arrive in our Logz.io account for analysis.
 
 ![data received](/images/collector/logz-io-collector-data-received.png)
 
 And that’s how you begin sending data to Logz.io in minutes. Let's explore Kuberentes via our Open 360 Platform.
-![next - k8s 360](/images/collector/logz-io-collector-highlight-k8s-360.png)

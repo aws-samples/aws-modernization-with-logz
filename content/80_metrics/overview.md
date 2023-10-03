@@ -4,7 +4,7 @@ chapter: true
 weight: 81
 ---
 
-# Logz.io Metrics Overvie
+# Logz.io Metrics Overview
 
 ## Full visibility into infrastructure health and performance
 
