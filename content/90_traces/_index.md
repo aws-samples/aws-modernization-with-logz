@@ -6,9 +6,13 @@ weight: 90
 
 # Traces: Introduction
 
-In today's world of distributed software systems, understanding how requests traverse through various services and components is essential for maintaining optimal performance and troubleshooting issues. Distributed tracing provides a powerful solution by capturing and analyzing the flow of requests across different services. OpenTelemetry, an open-source observability framework, simplifies the implementation of distributed tracing and enables developers to gain valuable insights into the complexities of their distributed systems. In this section, we'll dive into the fundamentals of distributed tracing, explore the challenges developers face when getting started, and showcase how OpenTelemetry addresses those challenges to empower effective tracing.
+In today's world of distributed software systems, understanding how requests traverse through various services and components is essential for maintaining optimal performance and troubleshooting issues. Distributed tracing provides a powerful solution by capturing and analyzing the flow of requests across different services.
 
-## The Challenges of Getting Started with Tracing:
+OpenTelemetry, an open-source observability framework, simplifies the implementation of distributed tracing and enables developers to gain valuable insights into the complexities of their distributed systems.
+
+In this section, we'll dive into the fundamentals of distributed tracing, explore the challenges developers face when getting started, and showcase how OpenTelemetry addresses those challenges to empower effective tracing.
+
+## The Challenges of Getting Started with Tracing
 
 While distributed tracing offers significant benefits, getting started with tracing can be challenging due to various reasons:
 
@@ -20,7 +24,7 @@ While distributed tracing offers significant benefits, getting started with trac
 
 **Complex System Topologies**: Distributed systems can have complex topologies with numerous interconnected services. Tracing such systems requires mapping the relationships between services, understanding the dependencies, and ensuring accurate representation of the request flow.
 
-## Addressing Challenges with OpenTelemetry:
+## Addressing Challenges with OpenTelemetry
 
 OpenTelemetry simplifies the process of getting started with distributed tracing and mitigates the challenges faced by developers:
 

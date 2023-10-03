@@ -5,7 +5,9 @@ weight: 85
 
 # Interactive Dashboard
 
-As we saw in the previous section we learned about PromQL. We will now utilized that new gain knowledge to create a dashboards that provides more context to the metrics we previously explored. Grafana, an open-source platform, empowers users to create dynamic and insightful dashboards that provide valuable insights into their data. In this comprehensive tutorial, we will guide you through the process of creating interactive dashboards using Grafana and harnessing the power of PromQL (Prometheus Query Language) to extract and visualize data from Prometheus.
+As we saw in the previous section we learned about PromQL. We will now utilize that newly-gained knowledge to create a dashboard that provides more context to the metrics we previously explored. Grafana, an open-source platform, empowers users to create dynamic and insightful dashboards that provide valuable insights into their data.
+
+In this comprehensive tutorial, we will guide you through the process of creating interactive dashboards using Grafana and harnessing the power of PromQL (Prometheus Query Language) to extract and visualize data from Prometheus.
 
 If you were doing this on your own infrastructure you would have to do the following steps to get started:
 
