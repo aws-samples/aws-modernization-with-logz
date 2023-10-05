@@ -14,14 +14,15 @@ To complete this workshop, you are provided with an AWS account via the AWS Work
 
 ![Workshop Studio login otp](/images/prerequisites/otp_ws.png)
 
-3. Enter the email address that you registered to the event with, and click **Send passcode** you will recive a one time passcode to be used in the next step.
+3. Enter the email address that you registered to the event with, and click **Send passcode** you will receive a one time passcode to be used in the next step.
 
 ![Workshop Studio login otp](/images/prerequisites/email_ws.png)
 
-4. Enter the one time passcode recived and click **Sign In**
+4. Enter the one time passcode received and click **Sign In**
 
 ![Workshop Studio login otp](/images/prerequisites/pass_ws.png)
 
 5. Review the Terms and Conditions, and select **I agree with the Terms and Conditions**, then Click **Join Event**.
 
 6. To go to you AWS Console, click **Open AWS Console** on the **Left** side of the page
+
