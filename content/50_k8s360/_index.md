@@ -6,7 +6,7 @@ weight: 50
 
 # Verifying Everything is working
 
-For this section we will utilize logz.io Kubernetes 360 to ensure everything is working.
+For this section we will utilize Logz.io Kubernetes 360 to ensure everything is working.
 
 Kubernetes 360 is part of Logz.io’s Open 360, a unified platform combining a true log analytics solution, the best Prometheus metrics monitoring, and the value of distributed tracing powered by Jaeger.
 

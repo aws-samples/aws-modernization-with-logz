@@ -5,13 +5,6 @@ sidebar_custom_props: { "module": true }
 weight: 5
 ---
 
-{{% notice warning %}}
-
-<p style='text-align: left;'>
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be configured to work with Logz.io.
-</p>
-{{% /notice %}}
-
 # Workload Scanning
 
 In this lab we will deploy a container that is known to have a vulnerability and see everything in action.

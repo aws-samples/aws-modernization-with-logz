@@ -10,36 +10,34 @@ PromQL serves as the gateway to querying Prometheus time-series data, enabling u
 To retrieve a specific metric, such as CPU usage, we can use the following PromQL query:
 
 ```
-cpu_usage_percentage
+container_cpu_usage_seconds_total{}
 ```
 
-This query fetches the cpu_usage_percentage metric and displays the time-series data associated with it.
+This query fetches the container_cpu_usage_seconds_total metric and displays the time-series data associated with it.
 
-![CPU Usage Percentage]("images/logz-io/logz-io-metrics-cpu-usage-percentage.png")
+![Container CPU Usage seconds](/images/metrics/logz-io-metrics-container-cpu-ussage-seconds-total.png)
 
 ## Example 2: Filtering Metrics:
 
 PromQL's filtering capabilities make it effortless to narrow down our focus. Consider the following query:
 
 ```
-cpu_usage_percentage{instance="server01"}
+container_cpu_usage_seconds_total{namespace="monitoring"}
 ```
 
-This query retrieves the cpu_usage_percentage metric but filters it to only include data from the server01 instance. This level of granularity helps us pinpoint specific resources or components within our system.
-
-![CPU Usage Percentage - instance](/images/logz-io/logz-io-metrics-cpu-usage-percentage-instance.png)
+This query retrieves the container_cpu_usage_seconds_total metric but filters it to only include data from the monitoring namespace. This level of granularity helps us pinpoint specific resources or components within our system.
+![Container CPU Usage seconds per namespace](/images/metrics/logz-io-metrics-container-cpu-ussage-seconds-total-per-namespace.png)
 
 ## Example 3: Aggregating Metrics:
 
 PromQL excels at aggregating metrics across multiple time series. Let's take a look at an example:
 
 ```
-sum(cpu_usage_percentage)
+sum(container_cpu_usage_seconds_total)
 ```
 
-This query calculates the sum of the cpu_usage_percentage metric across all time series, providing a holistic view of the overall CPU usage.
-
-![CPU Usage Percentage](/images/logz-io/logz-io-metrics-cpu-usage-percentage-sum.png)
+This query calculates the sum of the container_cpu_usage_seconds_total metric across all time series, providing a holistic view of the overall CPU usage.
+![SUM Container CPU Usage seconds](/images/metrics/logz-io-metrics-container-cpu-ussage-seconds-tota-sum.png)
 
 ## Example 4: Range Queries:
 
@@ -50,8 +48,6 @@ cpu_usage_percentage[1h]
 ```
 
 This query retrieves the cpu_usage_percentage metric for the past one hour, providing insights into its behavior over that timeframe.
-
-![CPU Usage Percentage](/images/logz-io/logz-io-metrics-cpu-usage-percentage-1h.png)
 
 ## Exploring Availavble Metrics
 
