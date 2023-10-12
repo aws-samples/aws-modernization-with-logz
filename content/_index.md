@@ -4,9 +4,9 @@ chapter: true
 weight: 1
 ---
 
-## Observability & Security for Teams that Love Open Source
+## Essential Observability: How to go from zero to full observability in minutes
 
-![Partner Logo](/images/Logz-io_Logo.jpg) 
+![Partner Logo](/images/Logz-io_Logo.jpg)
 
 ### Learning Objectives
 
@@ -21,8 +21,5 @@ weight: 1
   - Get Insights into applications via traces
 
 {{% notice warning %}}
-
-<p style='text-align: left;'>
 The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be configured to work with Logz.io.
-</p>
 {{% /notice %}}

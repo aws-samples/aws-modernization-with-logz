@@ -53,7 +53,7 @@ Here’s an example payload:
 
 ## Send a deployment markers
 
-You have sent deployment markers in the past however you did not know how they worked. Additionally you have been using an utility that will send the markers to logz.io.
+You have sent deployment markers in the past however you did not know how they worked. Additionally you have been using an utility that will send the markers to Logz.io.
 As mentioned above it doesn't have to be only for deployment it can be for anything the payload and what you do with them is what matters. In this exercise you will send marker that will mark a fictitious marketing campaign.
 
 Copy the following code and paste it in your terminal.
