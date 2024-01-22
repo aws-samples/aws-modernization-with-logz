@@ -16,5 +16,5 @@ Expand the exception and take a minute to explore the contents of the exception:
 ![Logz.io: Exceptions 2](/images/logs/logz-io-logs-exceptions-2.png)
 If you go all the way down to the last lines you might notice the error is referring to the **ProductCatalogService**.
 ![Logz.io: Exceptions 3](/images/logs/logz-io-logs-exceptions-3.png)
-As you can see we didn't have to do much to figure out what was going on. We can clearly see from the message that the failrues are due to the feature flag being enabled.
+As you can see we didn't have to do much to figure out what was going on. We can clearly see from the message that the failures are due to the feature flag being enabled.
 In the next section we will cover how to create an alert for when this happens again.
