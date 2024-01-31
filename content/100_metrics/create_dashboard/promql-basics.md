@@ -1,6 +1,6 @@
 ---
 title: PromQL Basics
-weight: 84
+weight: 104
 ---
 
 PromQL serves as the gateway to querying Prometheus time-series data, enabling users to dig deep into their system metrics. It offers a range of operators and functions, allowing for complex data manipulations and aggregations. Let's dive into a few PromQL code examples to understand its prowess:

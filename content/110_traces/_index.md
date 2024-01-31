@@ -1,7 +1,7 @@
 ---
 title: Working with Traces
 chapter: true
-weight: 90
+weight: 110
 ---
 
 # Traces: Introduction

@@ -1,7 +1,7 @@
 ---
 title: Working with Metrics
 chapter: true
-weight: 80
+weight: 100
 ---
 
 # Working with Metrics

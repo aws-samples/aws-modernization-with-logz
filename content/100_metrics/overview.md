@@ -1,7 +1,7 @@
 ---
 title: Logz.io Metrics Overview
 chapter: true
-weight: 81
+weight: 101
 ---
 
 # Logz.io Metrics Overview

@@ -1,6 +1,6 @@
 ---
 title: Creating a Dashboard
-weight: 85
+weight: 105
 ---
 
 # Interactive Dashboard

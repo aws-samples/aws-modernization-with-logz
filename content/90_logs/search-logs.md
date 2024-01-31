@@ -1,7 +1,7 @@
 ---
 title: Search Logs
 chapter: true
-weight: 75
+weight: 95
 ---
 
 # Searching Logs
