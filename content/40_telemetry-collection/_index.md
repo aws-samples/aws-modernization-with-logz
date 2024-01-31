@@ -1,5 +1,5 @@
 ---
-title: Logz.io OpenTelemetry Collector
+title: Logz.io Telemetry Collector
 chapter: true
 weight: 40
 ---
@@ -14,31 +14,41 @@ If you already have a Logz.io account, go to the ‘Send your data’ page in on
 
 Now it’s time to configure the Telemetry Collector. All we have to do is follow the steps on the screen—starting with selecting what we want to monitor. Currently, Telemetry Collector can integrate with:
 
-- Your local host: this integration is used most often to test Logz.io. Quickly and easily get data from your local host into Logz.io to explore our analysis capabilities.
-- Kubernetes (AKS, EKS, or GKE): See all of your critical Kubernetes health and performance metrics together, alongside logs and traces to explore the root cause of challenges. Telemetry Collector also automatically discovers the application running on Kubernetes and parses the application logs.
-- AWS EC2: Quickly deploy the Telemetry Collector to begin monitoring your EC2s.
-- AWS CloudWatch: Already collecting logs and metrics with CloudWatch? Deploy the Telemetry Collector to easily forward them to Logz.io.
+- Your **local host**: this integration is used most often to test Logz.io. Quickly and easily get data from your local host into Logz.io to explore our analysis capabilities.
+- **Kubernetes** (AKS, EKS, GKE, DigitalOcean): See all of your critical Kubernetes health and performance metrics together, alongside logs and traces to explore the root cause of challenges. Telemetry Collector also automatically discovers the application running on Kubernetes and parses the application logs.
+- **AWS EC2**: Quickly deploy the Telemetry Collector to begin monitoring your EC2s.
+- **AWS CloudWatch**: Already collecting logs and metrics with CloudWatch? Deploy the Telemetry Collector to easily forward them to Logz.io.
+- **Azure Logs and Metrics**: Fetch the data from Azure.
+- **Google Cloud Logging and Monitoring**: Integrate with GCP Logging and Monitoring solutions.
 
 We will continuously release more integrations with popular cloud technologies in the near future.
 
-For our workshop we will be selecting kubernetes > EKS.
+For our workshop we will be selecting Kubernetes EKS.
 
-![k8s-eks](/images/collector/logz-io-collector-1-eks.png)
+![k8s-eks](/images/collector/logz-io-collector-1-k8s-eks.png)
 
 You will be brought to screen that has been populated with a helm configuration to deploy the collection of logs, metrics and traces.
 
-Before we continue we need to update the place holders in yellowed `ENTER VALUE` with a value of your choosing. It production environments
+Before continuing you will need to add Logz.io GitHub repo to your Helm configuration:
+```bash
+$ helm repo add logzio-helm https://logzio.github.io/logzio-helm
+$ helm repo update
 
-you want to utilize the name of the cluster or environment name.
-![k8s helm configuration](/images/collector/logz-io-collector-2-install-via-helm.png)
+```
+
+and also update the place holders in yellowed `ENTER VALUE` with a value of your choosing. In production environments you want to utilize the name of the cluster or environment name.
+
+
+![k8s helm configuration](/images/collector/logz-io-collector-2-install-helm.png)
 
 Click the `Copy snippet` button to copy the helm configuration to your clipboard. You will need this in the next step.
 
-![helm install](/images/collector/logz-io-console-install-via-helm.png)
 Paste the helm snippet into the terminal window and run the command. This will install the telemetry collector into your EKS cluster. Once the installation is complete you will see a message that looks like the one below.
+
+![helm install](/images/collector/logz-io-console-install-via-helm.png)
 
 After about a minute, we can see our data arrive in our Logz.io account for analysis.
 
-![data received](/images/collector/logz-io-collector-data-received.png)
+![data received](/images/collector/logz-io-collector-data-rec.png)
 
 And that’s how you begin sending data to Logz.io in minutes. Let's explore Kuberentes via our Open 360 Platform.
