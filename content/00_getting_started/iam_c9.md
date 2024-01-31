@@ -16,29 +16,21 @@ the some AWS services authentication, so we will disable it and rely on the IAM 
 - Close the Preferences tab
   ![c9disableiam](/images/prerequisites/c9disableiam.png)
 
-Let's run the command below, the following actions will take place as we do that:
+Let's run the commands below, the following actions will take place as we do that:
 
-:small_blue_diamond: Install jq- jq is a command-line tool for parsing JSON
+:small_blue_diamond: Remove any existing AWS credentials file
 
-:small_blue_diamond: Ensure temporary credentials aren’t already in place.
+:small_blue_diamond: Set the region to work with our desired region
 
-:small_blue_diamond: Remove any existing credentials file.
-
-:small_blue_diamond: Set the region to work with our desired region.
-
-:small_blue_diamond: Validate that our IAM role is valid.
+:small_blue_diamond: Validate that our IAM role is valid
 
 ```sh
-sudo yum -y install jq
 rm -vf ${HOME}/.aws/credentials
+export AWS_REGION=$(ec2-metadata -z | awk '{print $2}' | sed 's/[a-z]$//')
+echo "export AWS_REGION=${AWS_REGION}" | tee -a ~/.bash_profile
 export ACCOUNT_ID=$(aws sts get-caller-identity --output text --query Account)
-export AWS_REGION=$(curl -s 169.254.169.254/latest/dynamic/instance-identity/document | jq -r '.region')
-test -n "$AWS_REGION" && echo AWS_REGION is "$AWS_REGION" || echo AWS_REGION is not set
 echo "export ACCOUNT_ID=${ACCOUNT_ID}" | tee -a ~/.bash_profile
-echo "export AWS_REGION=${AWS_REGION}" |
-tee -a ~/.bash_profile
 aws configure set default.region ${AWS_REGION}
-aws configure get default.region
 aws sts get-caller-identity --query Arn | grep Logz-io-Workshop-Admin -q && echo "IAM role valid" || echo "IAM role NOT valid"
 ```
 

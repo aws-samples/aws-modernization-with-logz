@@ -18,22 +18,23 @@ Cloud9 requires third-party-cookies. You can whitelist the [specific domains](ht
 
 ### Launch Cloud9:
 
-Create a Cloud9 Environment: [https://us-east-1.console.aws.amazon.com/cloud9/home?region=us-east-1](https://us-east-1.console.aws.amazon.com/cloud9/home?region=us-east-1)
+Create a Cloud9 Environment: [https://eu-central-1.console.aws.amazon.com/cloud9/home?region=eu-central-1](https://eu-central-1.console.aws.amazon.com/cloud9/home?region=eu-central-1)
 
 {{% notice warning %}}
 Make sure you are naming your Cloud9 environment `Logz-io-Workshop`.
 {{% /notice %}}
 
 - Select **Create environment**
-- Name it **Logz-io-Workshop**. Scroll down, expand **VPC Settings** you can leave it as is or you can select a specific subnet.
+- Name it **Logz-io-Workshop**
+- Leave the rest to defaults
+- You can scroll down, expand **VPC Settings** and select a specific VPC and subnet, or leave it as is
   ![c9networksetting](/images/prerequisites/c9networksetting.png)
 
-- When it comes up, customize the environment by closing the **welcome tab**
+- When it comes up, click **Open**, customize the environment by closing the **welcome tab**
   and **lower work area**, and opening a new **terminal** tab in the main work area:
   ![c9before](/images/prerequisites/c9before.png)
 
 - Your workspace should now look like this:
   ![c9after](/images/prerequisites/c9after.png)
 
-- If you like this theme, you can choose it yourself by selecting **View / Themes / Solarized / Solarized Dark**
-  in the Cloud9 workspace menu.
+- If you don't like the theme, you can change it by selecting **View / Themes / UI Themes** in the Cloud9 workspace menu.
