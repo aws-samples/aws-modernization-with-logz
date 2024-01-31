@@ -10,7 +10,7 @@ As part of the workshop you will need a Logz.io account.
 
 You can create an account by going to the following URL and filling in the information. The creation of the account does not require a credit card.
 
-#### Sing up 14 Day Trial account
+#### Sign up to get a 14 days Trial account
 
 Go to: [https://logz.io/freetrial/](https://logz.io/freetrial/)
 
@@ -27,11 +27,4 @@ All you will need is to provide:
 
 ![Logz.io Free Trial](/images/logz-signup.png)
 
-Once your EKS cluster has been created we can deploy the OpenTelemetry demo Application that we will be utilizing to learn about observability.
-
-{{% notice warning %}}
-
-<p style='text-align: left;'>
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be configured to work with Logz.io.
-</p>
-{{% /notice %}}
+Once your EKS cluster has been created we can deploy the Logz.io Telemetry Collector and OpenTelemetry Demo Application that we will be utilizing to learn about observability.

@@ -10,6 +10,7 @@ Contributors names and contact info
 
 - Mark Kriaf (@kriafm)
 - Victor Palma (@devx)
+- Aleksey Dalmatov (@alekseyda)
 
 ## License
 

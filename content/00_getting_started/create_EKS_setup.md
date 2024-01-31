@@ -9,26 +9,60 @@ Refer to the [**Clean up section**](/300_cleanup.html) to learn how to remove th
 
 {{%  /notice  %}}
 
-Since we clone the repository in the installation of additional tools. We can change into the setup directory to begin the lab, and create the cluster which can take a bit of time.
+## Setting up EKS Cluster yaml file
+
+Create a new file on your computer called workshop.yaml an open it
 
 ```bash
-$ cd ~/logz-io-observability-workshop-code/01-setup
-$ eksctl create cluster -f logz-observability-workshop.yaml
+$ touch workshop.yaml
+$ nano workshop.yaml
 ```
+
+Once you open the file, copy the following contents into the text editor:
+```
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: logz-io-o11y-workshop
+  region: eu-central-1
+  version: "1.27"
+
+managedNodeGroups:
+  - name: workers
+    labels: { role: workers }
+    instanceType: t3a.medium
+    desiredCapacity: 4
+    volumeSize: 80
+    privateNetworking: true
+    tags:
+      Environment: workshop
+      Owner: workshop-attendee
+```
+Close the text editor with **Ctrl + X**, confirm with **Y** and **Enter**.
+
+Finally, execute the following command to create the cluster:
+
+```bash
+$ eksctl create cluster -f workshop.yaml
+```
+
+It will take approximately **15 minutes** until the cluster is created.
 
 ## Verify cluster is working
 
-Once the cluster finishes creating you should have an eks cluster with a minimun of 3 nodes.
+Once the cluster finishes creating you should have an EKS cluster with 4 nodes.
 
 Let's get the nodes
 
 ```bash
 $ kubectl get nodes
 
-NAME                                            STATUS   ROLES    AGE   VERSION
-ip-192-168-118-73.us-east-2.compute.internal    Ready    <none>   47m   v1.25.7-eks-a59e1f0
-ip-192-168-158-183.us-east-2.compute.internal   Ready    <none>   47m   v1.25.7-eks-a59e1f0
-ip-192-168-186-151.us-east-2.compute.internal   Ready    <none>   47m   v1.25.7-eks-a59e1f0
+NAME                                               STATUS   ROLES    AGE     VERSION
+ip-192-168-117-13.eu-central-1.compute.internal    Ready    <none>   7m44s   v1.27.9-eks-5e0fdde
+ip-192-168-147-30.eu-central-1.compute.internal    Ready    <none>   7m44s   v1.27.9-eks-5e0fdde
+ip-192-168-164-248.eu-central-1.compute.internal   Ready    <none>   7m41s   v1.27.9-eks-5e0fdde
+ip-192-168-165-72.eu-central-1.compute.internal    Ready    <none>   7m42s   v1.27.9-eks-5e0fdde
 
 ```
 
@@ -40,12 +74,14 @@ $ kubectl get all --all-namespaces
 NAMESPACE     NAME                          READY   STATUS    RESTARTS   AGE
 kube-system   pod/aws-node-8krm8            1/1     Running   0          63m
 kube-system   pod/aws-node-pl4sh            1/1     Running   0          63m
+kube-system   pod/aws-node-wvl6k            1/1     Running   0          63m
 kube-system   pod/aws-node-xn4xk            1/1     Running   0          63m
 kube-system   pod/coredns-8fd4db68f-pwq8f   1/1     Running   0          71m
 kube-system   pod/coredns-8fd4db68f-q8gpw   1/1     Running   0          71m
 kube-system   pod/kube-proxy-4hbr5          1/1     Running   0          63m
 kube-system   pod/kube-proxy-dvbzt          1/1     Running   0          63m
 kube-system   pod/kube-proxy-srblm          1/1     Running   0          63m
+kube-system   pod/kube-proxy-5dfj9          1/1     Running   0          63m
 
 NAMESPACE     NAME                 TYPE        CLUSTER-IP    EXTERNAL-IP   PORT(S)         AGE
 default       service/kubernetes   ClusterIP   10.100.0.1    <none>        443/TCP         71m

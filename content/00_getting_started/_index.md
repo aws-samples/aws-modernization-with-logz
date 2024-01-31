@@ -3,13 +3,6 @@ title: "Getting Started"
 chapter: true
 weight: 10
 ---
-{{% notice warning %}}
-
-<p style='text-align: left;'>
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be configured to work with Logz.io.
-</p>
-{{% /notice %}}
-
 # Getting Started
 
 Welcome! Observability has become a crucial part of modern software development and operations. In today's fast-paced, complex software systems, it's not enough to simply monitor your applications and infrastructure. You need to have a deep understanding of how your systems are behaving and why they are behaving that way. This is where observability comes in.
@@ -20,7 +13,7 @@ By the end of this workshop, you'll have a solid understanding of observability 
 
 So, let's get started!
 
-To start the workshop, follow one of the following depending on whether you are...
+To start the workshop, follow one of the paths below depending on whether you are...
 
 * ...[running the workshop on your own](00_getting_started/self_paced.html), or
 * ...[attending an AWS hosted event](00_getting_started/aws_event.html)

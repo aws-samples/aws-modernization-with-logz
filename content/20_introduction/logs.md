@@ -14,9 +14,10 @@ Like monitoring, logging everything on a debug level is wasteful and going to cr
 
 Try answering these questions:
 
-Where should all logs ship to? Any log that contains important data should not stay on a server where it can be lost (and not analyzed).
-How much logging is appropriate for each service? Debug shouldn’t be the default unless you’re troubleshooting, or if important data is needed that only comes out when an application is set to debug. Those items should be reclassified.
-How long should logs be retained locally and in your shipped location?
-What tools can simplify this process? (ELK Stack)
-Do logs need to be transformed to be more useful and ingestible?
-Are logs being populated with the correct data? In other words, custom applications should place meaningful information on the state of the application and detailed errors. This really puts a heavy onus on application developers to invest time in creating extensive error handling.
+- **Where should all logs ship to?** Any log that contains important data should not stay on a server where it can be lost (and not analyzed).
+- **How much logging is appropriate for each service?** Debug shouldn’t be the default unless you’re troubleshooting, or if important data is needed that only comes out when an application is set to debug. Those items should be reclassified.
+- **How long should logs be retained locally and in your shipped location?**
+- **What tools can simplify this process?**
+- **Do logs need to be transformed to be more useful and ingestible?**
+- **Are logs being populated with the correct data?**
+In other words, custom applications should place meaningful information on the state of the application and detailed errors. This really puts a heavy onus on application developers to invest time in creating extensive error handling.

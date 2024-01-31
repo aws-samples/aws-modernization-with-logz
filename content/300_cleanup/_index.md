@@ -11,11 +11,12 @@ This is nesccery when you run the workshop on you own AWS envrionment.
 {{% /notice %}}
 
 ### Remove EKS Cluster
-In the AWS Console.
+The easiest way to do this is via the following command:
 
-1. Go to **Services** -> **EKS** 
-2. Select the cluster named "logz-io-o11y-workshop" and click the "Delete" button on the right.
-3. Confirm deletion step.
+```bash
+$ eksctl delete cluster --name logz-io-o11y-workshop --region eu-central-1
+
+```
 
 Please allow several minutes for this task to complete.
 
