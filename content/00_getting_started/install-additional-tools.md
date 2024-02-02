@@ -9,7 +9,7 @@ For the duration of the workshop we will be utilizing a couple of extra tools:
 - **kubectl** for interacting with the cluster
 - **helm** for deploying applications
 
-Let's install all of them.
+Let's install all of them in our Cloud9 environment.
 
 ### eksctl
 

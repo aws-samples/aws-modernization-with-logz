@@ -5,7 +5,7 @@ weight: 14
 ---
 
 {{% notice warning %}}
-The Cloud9 workspace should be built by an IAM user with Administrator privileges,
+The [Cloud9](https://aws.amazon.com/cloud9/) workspace should be built by an IAM user with Administrator privileges,
 not the root account user. Please ensure you are logged in as an IAM user, not the root
 account user.
 {{% /notice %}}
@@ -16,16 +16,16 @@ the cloud9 domain, or connecting to the workspace might be impacted.
 Cloud9 requires third-party-cookies. You can whitelist the [specific domains](https://docs.aws.amazon.com/cloud9/latest/user-guide/troubleshooting.html#troubleshooting-env-loading).
 {{% /notice %}}
 
-### Launch Cloud9:
+## Launch Cloud9
 
-Create a Cloud9 Environment: [https://eu-central-1.console.aws.amazon.com/cloud9/home?region=eu-central-1](https://eu-central-1.console.aws.amazon.com/cloud9/home?region=eu-central-1)
+Create a Cloud9 Environment via [this link](https://eu-central-1.console.aws.amazon.com/cloud9/home?region=eu-central-1)
 
 {{% notice warning %}}
-Make sure you are naming your Cloud9 environment `Logz-io-Workshop`.
+Make sure you are naming your Cloud9 environment **Logz-io-Workshop**.
 {{% /notice %}}
 
 - Select **Create environment**
-- Name it **Logz-io-Workshop**
+- Name it **`Logz-io-Workshop`**
 - Leave the rest to defaults
 - You can scroll down, expand **VPC Settings** and select a specific VPC and subnet, or leave it as is
   ![c9networksetting](/images/prerequisites/c9networksetting.png)

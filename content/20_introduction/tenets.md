@@ -8,7 +8,7 @@ weight: 21
 
 Most will know what each of these items is, hereafter referred to as tenets, so let’s focus on what they mean for observability and what you should be thinking to reach a higher state of observability.
 
-Here are some key tenets of observability:
+**Here are some key tenets of observability:**
 
 **[Logs](/20_introduction/logs.html)**: Logs are records of events that have happened in a system. Logs can be used to debug issues, trace user activity, and provide a history of system behavior.
 
@@ -28,4 +28,4 @@ Here are some key tenets of observability:
 
 **[Automation](/20_introduction/automation.html)**: Automation is the practice of using software to automate repetitive tasks. Automation can be used to set up alerts, collect metrics, and perform other tasks related to observability.
 
-By embracing these tenets of observability, you can gain a deeper understanding of how your systems are behaving and quickly identify and resolve issues as they arise.
+**By embracing these tenets of observability, you can gain a deeper understanding of how your systems are behaving and quickly identify and resolve issues as they arise.**

@@ -1,10 +1,10 @@
 ---
 title: Installation
-chapter: true
+chapter: false
 weight: 51
 ---
 
-Now that we have our Kubernetes cluster we can deploy the OpenTelemetry demo application.
+Now that we have our Kubernetes cluster we can **deploy the OpenTelemetry demo application**.
 To make our lives easier we will be utilizing the helm charts to deploy the application.
 
 First of all, let's add the OpenTelemetry repo to our Helm repository
@@ -81,5 +81,7 @@ Open the application page: in Cloud9 console click **Preview** / **Preview Runni
 
 In the preview window click **Pop Out Into New Window**
 ![Pop out](/images/application/cloud9-pop-out.png)
+
+**Keep this tab open**
 
 We are ready for the next section!

@@ -1,7 +1,7 @@
 ---
 title: Logz.io Log Overview
 chapter: true
-weight: 71
+weight: 91
 ---
 
 # Logs.io Overview

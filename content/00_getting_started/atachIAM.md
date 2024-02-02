@@ -1,5 +1,5 @@
 ---
-title: "Attach the IAM role to your Cloud9 Workspace"
+title: "Attach IAM role to Cloud9"
 chapter: false
 weight: 16
 ---

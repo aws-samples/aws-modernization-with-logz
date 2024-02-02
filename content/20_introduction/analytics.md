@@ -8,20 +8,20 @@ weight: 27
 
 Observability is the practice of monitoring and measuring systems to gain a deep understanding of their behavior. Analytics is a key component of observability, as it allows organizations to turn data into actionable insights.
 
-**Why Analytics?**
+### Why Analytics?
 
 Analytics is essential in observability because it enables organizations to:
 
-- Identify trends and anomalies
-- Troubleshoot issues
-- Optimize resource utilization
-- Make better decisions
+- **Identify trends and anomalies**
+- **Troubleshoot issues**
+- **Optimize resource utilization**
+- **Make better decisions**
 
-**What is Analytics?**
+### What is Analytics?
 
 Analytics in observability involves collecting, processing, and analyzing data from multiple sources to gain a holistic understanding of system behavior. This can include data from logs, metrics, traces, and other sources. The goal is to extract meaningful insights from the data to drive better decision-making and improve system performance.
 
-**Benefits of Analytics in Observability**
+### Benefits of Analytics in Observability
 
 Analytics provides several benefits in observability, including:
 
@@ -30,7 +30,7 @@ Analytics provides several benefits in observability, including:
 - **Increased efficiency:** With analytics, organizations can identify and address issues more quickly, reducing downtime and increasing overall efficiency.
 - **Better customer experiences:** By identifying and addressing issues before they impact customers, organizations can improve customer satisfaction and loyalty.
 
-**Challenges of Analytics in Observability**
+### Challenges of Analytics in Observability
 
 While analytics provides many benefits in observability, it also presents several challenges. Some of the key challenges include:
 
@@ -39,7 +39,7 @@ While analytics provides many benefits in observability, it also presents severa
 - **Complexity:** Analyzing data from multiple sources can be complex and time-consuming, especially in distributed systems.
 - **Alert fatigue:** Too many alerts can lead to alert fatigue, causing organizations to ignore critical alerts or miss important issues.
 
-**Choosing the Right Analytics Tools**
+### Choosing the Right Analytics Tools
 
 To get the most out of analytics in observability, organizations need to choose the right tools. Some of the key features to look for include:
 
@@ -48,6 +48,6 @@ To get the most out of analytics in observability, organizations need to choose 
 - **Machine learning:** Machine learning algorithms can help identify anomalies and other issues more quickly and accurately.
 - **Scalability:** The tool should be able to handle large volumes of data from multiple sources.
 
-**Analytics and the Tenets of Observability**
+### Analytics and the Tenets of Observability
 
 Analytics is an essential tenet of observability because it provides deeper insights into system behavior and enables organizations to make more informed decisions. Analytics intersects with other tenets, such as logging, monitoring, and alerting, to provide a comprehensive view of system performance. By leveraging the power of analytics, organizations can optimize system performance, reduce downtime, and improve customer experiences.

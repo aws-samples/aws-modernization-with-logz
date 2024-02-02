@@ -1,10 +1,12 @@
 ---
 title: "Create a Logz.io Trial account"
-chapter: true
+chapter: false
 weight: 20
 ---
 
-## Create a Logz.io Trial account
+{{% notice info %}}
+If you are already using Logz.io platform, please log out of the system and use your personal/temporary email to open a trial account
+{{% /notice %}}
 
 As part of the workshop you will need a Logz.io account.
 
@@ -17,14 +19,15 @@ Go to: [https://logz.io/freetrial/](https://logz.io/freetrial/)
 Once you have clicked or typed the url on your browser it will look like the image below. Continue the Sign up process and Fill information, once you have
 completed the signup come back here to continue the workshop.
 
-All you will need is to provide:
+All you need is provide:
 
+- Email address
 - First Name
 - Last Name
-- Valid E-mail address
-- Company Name
+- Company Name (how you want to call your account)
 - Password
+- Choose **Frankfurt** for the Data Region
 
-![Logz.io Free Trial](/images/logz-signup.png)
+![Logz.io Free Trial](/images/logzio-trial.png)
 
 Once your EKS cluster has been created we can deploy the Logz.io Telemetry Collector and OpenTelemetry Demo Application that we will be utilizing to learn about observability.

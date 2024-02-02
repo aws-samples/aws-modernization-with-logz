@@ -25,8 +25,8 @@ When choosing which metrics to collect, it is important to consider the specific
 Once you have chosen the metrics to collect, you need to collect them and analyze them. There are a number of different tools that can be used to collect and analyze metrics.
 Some popular tools include:
 
-- Prometheus
-- OpenTelemetry
+- **Prometheus**
+- **OpenTelemetry**
 
 ### Monitoring and Alerting
 
