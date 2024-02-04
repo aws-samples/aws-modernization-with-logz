@@ -53,11 +53,16 @@ It will take approximately **15 minutes** until the cluster is created.
 
 Once the cluster finishes creating you should have an EKS cluster with 4 nodes.
 
-Let's get the nodes
+Let's get the nodes, execute this command
 
-```bash
+```
 $ kubectl get nodes
 
+```
+
+You should see something like this
+
+```
 NAME                                               STATUS   ROLES    AGE     VERSION
 ip-192-168-117-13.eu-central-1.compute.internal    Ready    <none>   7m44s   v1.27.9-eks-5e0fdde
 ip-192-168-147-30.eu-central-1.compute.internal    Ready    <none>   7m44s   v1.27.9-eks-5e0fdde
@@ -66,11 +71,15 @@ ip-192-168-165-72.eu-central-1.compute.internal    Ready    <none>   7m42s   v1.
 
 ```
 
-Finally let's get all available resources.
+Finally, let's get all available resources by running
 
 ```bash
-$ kubectl get all --all-namespaces
+$ kubectl get all -A
+```
 
+If something like this comes up, it means everything is working as expected
+
+```
 NAMESPACE     NAME                          READY   STATUS    RESTARTS   AGE
 kube-system   pod/aws-node-8krm8            1/1     Running   0          63m
 kube-system   pod/aws-node-pl4sh            1/1     Running   0          63m
@@ -88,8 +97,8 @@ default       service/kubernetes   ClusterIP   10.100.0.1    <none>        443/T
 kube-system   service/kube-dns     ClusterIP   10.100.0.10   <none>        53/UDP,53/TCP   71m
 
 NAMESPACE     NAME                        DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE
-kube-system   daemonset.apps/aws-node     3         3         3       3            3           <none>          71m
-kube-system   daemonset.apps/kube-proxy   3         3         3       3            3           <none>          71m
+kube-system   daemonset.apps/aws-node     4         4         4       4            4           <none>          71m
+kube-system   daemonset.apps/kube-proxy   4         4         4       4            4           <none>          71m
 
 NAMESPACE     NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
 kube-system   deployment.apps/coredns   2/2     2            2           71m

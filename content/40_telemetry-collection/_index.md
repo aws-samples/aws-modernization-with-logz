@@ -49,6 +49,6 @@ Paste the helm snippet into the terminal window and run the command. This will i
 
 After about a minute, we can see our data arrive in our Logz.io account for analysis.
 
-![data received](/images/collector/logz-io-collector-data-rec.png)
+![data received](/images/collector/logz-io-collector-data-received.png)
 
 And that’s how you begin sending data to Logz.io in minutes. Let's explore Kuberentes via our Open 360 Platform.

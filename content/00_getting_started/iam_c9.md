@@ -1,12 +1,11 @@
 ﻿---
-title: "Update IAM settings for your Cloud9 Workspace"
+title: "Update IAM settings for Cloud9"
 chapter: false
 weight: 17
 ---
 
 {{% notice info %}}
-Cloud9 normally manages IAM credentials dynamically. This isn't currently compatible with
-the some AWS services authentication, so we will disable it and rely on the IAM role instead.
+Cloud9 normally manages IAM credentials dynamically. This isn't currently compatible with some AWS services authentication, so we will disable it and rely on the IAM role instead.
 
 {{% /notice %}}
 
