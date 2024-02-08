@@ -23,7 +23,13 @@ $ helm install astronomy-shop open-telemetry/opentelemetry-demo -n astronomy --c
   --set grafana.enabled=false \
   --set jaeger.enabled=false \
   --set prometheus.enabled=false \
-  --set opentelemetry-collector.enabled=false
+  --set opentelemetry-collector.enabled=true \
+  --set components.adService.resources.limits.memory="400Mi" \
+  --set components.emailService.resources.limits.memory="300Mi" \
+  --set components.frauddetectionService.resources.limits.memory="300Mi" \
+  --set components.kafka.resources.limits.memory="700Mi" \
+  --set components.loadgenerator.resources.limits.memory="200Mi" \
+  --set components.recommendationService.resources.limits.memory="40Mi"
 
 ```
 
