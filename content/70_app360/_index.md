@@ -125,7 +125,7 @@ To enable deployment tracking ability, run the [Telemetry Collector](https://app
 
 Once enabled, navigate to Services and choose one of your running services. The deployment marker will appear in your graphs, marked by a vertical line.
 
-![Deployment popup](/images/app360/deplyment-popup.png)
+![Deployment popup](/images/app360/deployment-popup.png)
 
 You can view additional deployment data by clicking on the line. This data includes the deployment time, the associated service and environment, and a quick link to view the commit in your logs.
 
