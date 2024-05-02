@@ -18,7 +18,7 @@ $ helm repo update
 To deploy the application, execute this helm command
 
 ```shell
-$ helm install astronomy-shop open-telemetry/opentelemetry-demo --version 0.26.1 -n astronomy --create-namespace \
+$ helm install astronomy-shop open-telemetry/opentelemetry-demo --version 0.24.0 -n astronomy --create-namespace \
   --set default.envOverrides[0].name=OTEL_COLLECTOR_NAME,default.envOverrides[0].value='logzio-monitoring-otel-collector.monitoring.svc.cluster.local' \
   --set grafana.enabled=false \
   --set jaeger.enabled=false \

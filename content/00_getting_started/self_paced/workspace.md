@@ -18,7 +18,7 @@ Cloud9 requires third-party-cookies. You can whitelist the [specific domains](ht
 
 ## Launch Cloud9
 
-Create a Cloud9 Environment via [this link](https://eu-central-1.console.aws.amazon.com/cloud9/home?region=eu-central-1) or search for **Cloud9** in the AWS search.
+Create a Cloud9 Environment via [this link](https://console.aws.amazon.com/cloud9control/home?region=us-east-1#/create/) or search for **Cloud9** in the AWS search.
 
 {{% notice warning %}}
 Make sure you are naming your Cloud9 environment **Logz-io-Workshop**.

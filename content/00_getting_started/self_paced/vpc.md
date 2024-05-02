@@ -4,10 +4,10 @@ chapter: false
 weight: 13
 ---
 
-Head over to the [VPC Console](https://eu-central-1.console.aws.amazon.com/vpc/home?region=eu-central-1#vpcs:) to make sure you have a VPC listed there. You can use a default VPC. If it doesn't exist, then let's create one.
+Head over to the [VPC Console](https://console.aws.amazon.com/vpc/home) to make sure you have a VPC listed there. You can use a default VPC. If it doesn't exist, then let's create one.
 
 The easiest way to do it is to follow 
-[this link](https://eu-central-1.console.aws.amazon.com/vpc/home?region=eu-central-1#CreateVpc:createMode=vpcWithResources)
+[this link](https://console.aws.amazon.com/vpcconsole/home?CreateVpc:createMode=vpcWithResources&region=us-east-1#CreateVpc:createMode=vpcWithResources)
 and fill in a couple of values. At the end you should have a VPC with 2 **AZ's**.
 
 - VPC settings: **VPC and more**

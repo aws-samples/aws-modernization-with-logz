@@ -9,7 +9,7 @@ weight: 84
 
 Due to the nature of this feature flag, it will take several minutes until we can clearly see the impact.
 
-Open the [K8s360 app](https://app-eu.logz.io/#/dashboard/observability/k8s360) in your Logz.io account.
+Open the [K8s360 app](https://app.logz.io/#/dashboard/observability/k8s360) in your Logz.io account.
 
 Let's filter for the **astronomy** namespace using the filters on the left side:
 
