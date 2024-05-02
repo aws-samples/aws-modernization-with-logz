@@ -27,7 +27,7 @@ We can clearly see that **oteldemo.ProductCatalogService/GetProduct** operation 
 
 ![GetProduct](/images/play/app360-getproduct.png)
 
-Click on it and select one of the traces wit status code **13**
+Click on it and select one of the traces with status code **13**
 
 ![GetProduct](/images/play/app360-getproduct-details.png)
 
@@ -36,3 +36,11 @@ This will bring us to the trace details where you can expand the span with an ex
 We've found the problematic product!
 
 ![GetProduct](/images/play/app360-getproduct-jaeger.png)
+
+### Check how this looks on our website
+
+Navigate to the tab where you have the application frontend and try opening this product
+
+![Explorascope](/images/play/explorascope.png)
+
+The page won't show any details. Check the URL, it's the same product we saw in the span.

@@ -19,9 +19,20 @@ and fill in a couple of values. At the end you should have a VPC with 2 **AZ's**
 ![VPC 1](/images/prerequisites/aws-vpc-1.png)
 ![VPC 2](/images/prerequisites/aws-vpc-2.png)
 
-## Preview of what you are creating.
+### Preview of what you are creating.
 
 The VPC names might differ but the picture should look very similar.
 ![VPC Preview](/images/prerequisites/aws-vpc-preview.png)
 
-![Logz.io](/images/logz-io-badge.png)
+### Post-creation adjustments
+
+When the **CreateVPC workflow** finishes its job, click the **View VPC** button.
+
+Choose one of the public subnets and click the **open in new window** icon.
+![VPC Subnets](/images/prerequisites/aws-vpc-subnets.png)
+
+In the upper right part select **Actions** -> **Edit subnet settings**.
+![VPC Public Subnet](/images/prerequisites/aws-vpc-public-subnet.png)
+
+Check the **Enable auto-assign public IPv4 address** box and close the tab.
+![VPC Auto-assign IP](/images/prerequisites/aws-vpc-auto-assign.png)
