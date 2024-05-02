@@ -18,7 +18,7 @@ Cloud9 requires third-party-cookies. You can whitelist the [specific domains](ht
 
 ## Launch Cloud9
 
-Create a Cloud9 Environment via [this link](https://eu-central-1.console.aws.amazon.com/cloud9/home?region=eu-central-1)
+Create a Cloud9 Environment via [this link](https://console.aws.amazon.com/cloud9control/home?region=us-east-1#/create/) or search for **Cloud9** in the AWS search.
 
 {{% notice warning %}}
 Make sure you are naming your Cloud9 environment **Logz-io-Workshop**.
@@ -27,8 +27,8 @@ Make sure you are naming your Cloud9 environment **Logz-io-Workshop**.
 - Select **Create environment**
 - Name it **`Logz-io-Workshop`**
 - Leave the rest to defaults
-- You can scroll down, expand **VPC Settings** and select a specific VPC and subnet, or leave it as is
-  ![c9networksetting](/images/prerequisites/c9networksetting.png)
+- Scroll down to **Network settings**, expand **VPC Settings** and select VPC you created in the previous step and the public subnet you added the checkbox on.
+  ![c9networksetting](/images/prerequisites/c9network_settings.png)
 
 - When it comes up, click **Open**, customize the environment by closing the **welcome tab**
   and **lower work area**, and opening a new **terminal** tab in the main work area:

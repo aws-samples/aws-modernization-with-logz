@@ -26,8 +26,8 @@ All you need is provide:
 - Last Name
 - Company Name (how you want to call your account)
 - Password
-- Choose **Frankfurt** for the Data Region
+- Choose **N. Virginia (AWS)** for the Data Region
 
-![Logz.io Free Trial](/images/logzio-trial.png)
+![Logz.io Free Trial](/images/logz-io-trial.png)
 
 Once your EKS cluster has been created we can deploy the Logz.io Telemetry Collector and OpenTelemetry Demo Application that we will be utilizing to learn about observability.

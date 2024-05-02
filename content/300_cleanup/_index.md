@@ -43,7 +43,7 @@ Please allow several minutes for this task to complete.
 In the AWS Console.
 
 1. Go to **Services** -> **VPC** 
-2. Select the VPC named "Logz-io-Workshop" from the list ,click the "Action" button on the right and select "Delete VPC".
+2. Select the VPC named "logz-io-workshop" from the list, click the "Action" button on the right and select "Delete VPC".
 3. Confirm deletion step.
 
 Please allow several minutes for this task to complete.

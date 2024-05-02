@@ -25,7 +25,7 @@ kind: ClusterConfig
 
 metadata:
   name: logz-io-o11y-workshop
-  region: eu-central-1
+  region: us-east-1
   version: "1.27"
 
 managedNodeGroups:
@@ -64,10 +64,10 @@ You should see something like this
 
 ```
 NAME                                               STATUS   ROLES    AGE     VERSION
-ip-192-168-117-13.eu-central-1.compute.internal    Ready    <none>   7m44s   v1.27.9-eks-5e0fdde
-ip-192-168-147-30.eu-central-1.compute.internal    Ready    <none>   7m44s   v1.27.9-eks-5e0fdde
-ip-192-168-164-248.eu-central-1.compute.internal   Ready    <none>   7m41s   v1.27.9-eks-5e0fdde
-ip-192-168-165-72.eu-central-1.compute.internal    Ready    <none>   7m42s   v1.27.9-eks-5e0fdde
+ip-192-168-117-13.us-east-1.compute.internal    Ready    <none>   7m44s   v1.27.9-eks-5e0fdde
+ip-192-168-147-30.us-east-1.compute.internal    Ready    <none>   7m44s   v1.27.9-eks-5e0fdde
+ip-192-168-164-248.us-east-1.compute.internal   Ready    <none>   7m41s   v1.27.9-eks-5e0fdde
+ip-192-168-165-72.us-east-1.compute.internal    Ready    <none>   7m42s   v1.27.9-eks-5e0fdde
 
 ```
 
