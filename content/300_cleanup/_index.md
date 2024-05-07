@@ -14,7 +14,7 @@ This is nesccery when you run the workshop on you own AWS envrionment.
 The easiest way to do this is via the following command:
 
 ```bash
-$ eksctl delete cluster --name logz-io-o11y-workshop --region eu-central-1
+$ eksctl delete cluster --name logz-io-o11y-workshop --region us-east-1
 
 ```
 
